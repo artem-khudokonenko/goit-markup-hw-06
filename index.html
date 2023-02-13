@@ -404,6 +404,25 @@
             </li>
           </ul>
         </div>
+        <div class="div-media margin">
+          <h2 class="titel-media">Subscribe</h2>
+          <form class="flex-send">
+            <label>
+              <input
+                class="footer-input"
+                type="email"
+                placeholder="E-mail"
+                name="email-newsletters"
+              />
+            </label>
+            <button type="submit" class="btn-footer">
+              Subscribe
+              <svg class="modal-svg">
+                <use href="./images/icons.svg#send-mail"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <div data-modal class="backdrop is-hidden">
@@ -413,6 +432,53 @@
             <use href="./images/icons.svg#close"></use>
           </svg>
         </button>
+        <h2 class="titel-form">
+          Leave your contacts and we will call you back
+        </h2>
+        <form class="modal-form">
+          <labal class="modal-label" for="name">Name</labal>
+          <div class="modal-grup">
+            <input class="modal-input" type="text" name="username" id="name" />
+            <svg>
+              <use href="./images/icons.svg#user-name"></use>
+            </svg>
+          </div>
+          <labal class="modal-label" for="phone">Phone</labal>
+          <div class="modal-grup">
+            <input class="modal-input" type="tel" name="userphone" id="phone" />
+            <svg>
+              <use href="./images/icons.svg#user-phone"></use>
+            </svg>
+          </div>
+          <labal class="modal-label" for="email">Email</labal>
+          <div class="modal-grup">
+            <input
+              class="modal-input"
+              type="email"
+              name="useremail"
+              id="email"
+            />
+            <svg>
+              <use href="./images/icons.svg#user-mail"></use>
+            </svg>
+          </div>
+          <labal class="modal-label" for="comment">Comment</labal>
+          <textarea
+            class="modal-textarea"
+            type="text"
+            name="usercomment"
+            id="comment"
+            placeholder="Text input"
+          ></textarea>
+          <labal class="modal-label input">
+            <input class="checkbox" type="checkbox" />
+            <span
+              >I accept the terms and conditions of the
+              <a href="" class="link">Privacy Policy</a></span
+            ></labal
+          >
+          <button class="button-modal" type="submit">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
